@@ -162,7 +162,7 @@ $autoload['language'] = array();
 |	$autoload['model'] = array('first_model' => 'first');
 */
 
-$autoload['model'] = array();
+$autoload['model'] = array('Madmins','Mcats','Mproducts','Musers','Mgallery');
 
 
 /* End of file autoload.php */
