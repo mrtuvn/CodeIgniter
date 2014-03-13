@@ -33,7 +33,7 @@ class Index extends CI_Controller {
 		$this->load->helper('url');
 		$this->load->library('table');
 		
-		$data['title'] = "Homepage";
+		$data['title'] = "Homepage-eyeglasses";
 		$data['main'] = "home";
 		$data['products'] = $this->Mproducts->getAllProducts();
 		//echo $this->Musers->getText(); exit;
